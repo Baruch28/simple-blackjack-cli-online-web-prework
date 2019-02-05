@@ -3,6 +3,7 @@ def welcome
 end
 
 def deal_card
+  random #{1..11}
   # code #deal_card here
 end
 
@@ -11,7 +12,7 @@ def display_card_total
 end
 
 def prompt_user
-  # code #prompt_user here
+  with("Type 'h' to hit or 's' to stay")# code #prompt_user here
 end
 
 def get_user_input
