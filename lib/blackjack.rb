@@ -3,16 +3,18 @@ def welcome
 end
 
 def deal_card
-  random #{1..11}
+  rand(1..11)  
   # code #deal_card here
 end
 
 def display_card_total
+  puts "your card add up to #{card_total}"
   # code #display_card_total here
 end
 
 def prompt_user
-  with("Type 'h' to hit or 's' to stay")# code #prompt_user here
+  puts "Type 'h' to hit or 's' to stay"
+  # code #prompt_user here
 end
 
 def get_user_input
